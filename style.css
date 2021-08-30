@@ -1,0 +1,102 @@
+  /*General*/
+* {
+    margin: 0;
+    font-family: "Avenir";
+  }
+
+  body {
+      margin: 30px;
+      height: 100%;
+  }
+  
+  /*Header*/
+  h4 {
+    margin-top: 50px;
+    font-family: "Helvetica Neue";
+    text-align: center;
+    letter-spacing: 8px;
+    padding: 40px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  /*Top nav header*/
+  .topnav {
+    padding: 30px;
+  }
+  
+  .left a {
+    color: black;
+    float: left;
+    padding: 0px -40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Avenir";
+    display: block;
+  }
+  
+  .right a {
+    color: black;
+    margin-right: 100px;
+    float: right;
+    padding: 0px -40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Avenir";
+    display: block;
+  }
+  .right a:hover {
+    color: #80e9d2;
+  }
+
+  /*Gallery*/
+  .major-gallery {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gallery {
+    margin: 40px;
+    border: 1px solid #ccc;
+    float: left;
+    border-radius: 20px;
+    align-items: center;
+    transition: all .2s ease-in-out; 
+  }
+
+  .gallery img {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+  }
+  
+  .gallery:hover {
+    transform: scale(1.1);
+  }
+ 
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+  /*Creative Coding
+  .container-cc {
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+  }
+*/
+
+/*Footer*/
+
+    footer {
+      clear: both;
+      margin-top: auto;
+      padding-top: 30px;
+      position: relative;
+  }

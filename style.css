@@ -104,5 +104,10 @@
       float: left;
       display: grid;
       grid-template-columns: 1fr;
+      
+    }
+    
+    .right a {
+       margin-right: 100px;
     }
   }

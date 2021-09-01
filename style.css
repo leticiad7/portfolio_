@@ -2,11 +2,13 @@
 * {
     margin: 0;
     font-family: "Avenir";
+      scroll-behavior: smooth;
   }
 
   body {
       margin: 30px;
       height: 100%;
+      width: 100%;
   }
   
   /*Header*/
@@ -28,11 +30,12 @@
   .left a {
     color: black;
     float: left;
-    padding: 0px -40px;
+    /*padding: 0px -40px;
+    display: block;*/
     text-decoration: none;
     font-size: 18px;
     font-family: "Avenir";
-    display: block;
+    
   }
   
   .right a {
@@ -43,7 +46,7 @@
     text-decoration: none;
     font-size: 18px;
     font-family: "Avenir";
-    display: block;
+    display: inline-flex;
   }
   .right a:hover {
     color: #80e9d2;
@@ -51,15 +54,14 @@
 
   /*Gallery*/
   .major-gallery {
-    margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    float: right;
   }
 
   .gallery {
-    margin: 40px;
+    margin: 2em;
     border: 1px solid #ccc;
-    float: left;
     border-radius: 20px;
     align-items: center;
     transition: all .2s ease-in-out; 
@@ -83,20 +85,24 @@
     text-align: center;
   }
 
-
-  /*Creative Coding
-  .container-cc {
-    text-align: center;
-    margin-top: 20px;
-    display: inline-block;
-  }
-*/
-
 /*Footer*/
-
     footer {
       clear: both;
       margin-top: auto;
       padding-top: 30px;
       position: relative;
+  }
+
+ 
+  @media only screen and (max-width: 600px) {
+    * body {
+      margin: auto;
+    }
+
+    .major-gallery {
+      width: 100%;
+      float: left;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
   }

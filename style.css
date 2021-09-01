@@ -95,19 +95,17 @@
 
  
   @media only screen and (max-width: 600px) {
-    * body {
+     * body {
       margin: auto;
     }
 
+    .right {
+      margin-right: -20px;
+    }
     .major-gallery {
       width: 100%;
       float: left;
       display: grid;
       grid-template-columns: 1fr;
-      
-    }
-    
-    .right a {
-       margin-right: 100px;
     }
   }

@@ -6,7 +6,6 @@
   }
 
   body {
-      margin: 30px;
       height: 100%;
       width: 100%;
   }
@@ -30,24 +29,25 @@
   .left a {
     color: black;
     float: left;
-    /*padding: 0px -40px;
-    display: block;*/
     text-decoration: none;
     font-size: 18px;
     font-family: "Avenir";
     
   }
   
+
   .right a {
     color: black;
-    margin-right: 100px;
     float: right;
-    padding: 0px -40px;
     text-decoration: none;
     font-size: 18px;
     font-family: "Avenir";
     display: inline-flex;
+    justify-content: space-between;
+    margin-right: 100px;
+
   }
+  
   .right a:hover {
     color: #80e9d2;
   }
@@ -99,6 +99,9 @@
       margin: auto;
     }
 
+    .right {
+      margin-right: -20px;
+    }
     .major-gallery {
       width: 100%;
       float: left;

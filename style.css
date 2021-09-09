@@ -1,9 +1,13 @@
   /*General*/
-* {
-    margin: 0;
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
     font-family: "Avenir";
-      scroll-behavior: smooth;
-  }
+}
+  
+
+
 
   body {
       margin: 30px;

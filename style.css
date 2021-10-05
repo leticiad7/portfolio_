@@ -66,24 +66,60 @@
     align-items: center;
     transition: all .2s ease-in-out; 
   }
-
-  .gallery img {
+  .gallery img,     
+  .gallery-about img {
     border-radius: 20px;
     width: 100%;
     height: auto;
     object-fit: cover;
-
   }
   
   .gallery:hover {
     transform: scale(1.1);
   }
  
-  
   .desc {
     padding: 15px;
     text-align: center;
   }
+
+
+  /*About section*/
+  .gallery-about { /*About Section*/
+    margin: 1rem;
+    align-items: center;
+  }
+
+
+
+  ul .about-me {
+    list-style: none;
+    align-items: center;
+    margin: 0.3em
+
+  }
+
+  ul a {
+    text-decoration: none;
+    color: black;
+  }
+
+  ul a:hover {
+    color: #80e9d2;
+  }
+
+  .button {
+    margin: 0.8em;
+    padding: 0.9em;   
+    background-color: white;  
+    border: 0.5px solid black;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+    text-align:center;
+    display: inline-block;
+    margin-left: 30%;
+  }
+
 
 /*Footer*/
     footer {
@@ -93,8 +129,10 @@
       position: relative;
   }
 
+  
+
  
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     * body {
       margin: auto;
     }

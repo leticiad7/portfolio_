@@ -45,7 +45,6 @@
     display: inline-flex;
     justify-content: space-between;
     margin-right: 100px;
-
   }
   
   .right a:hover {
@@ -90,12 +89,34 @@
     align-items: center;
   }
 
+  .gallery-about img {
+    margin-left: 20px;;
+  }
 
+  ul{
+    list-style: none;
+  }
 
   ul .about-me {
-    list-style: none;
     align-items: center;
-    margin: 0.3em
+    margin: 0.5em;
+  }
+
+
+
+  .about-me1 {
+    padding: 20px;
+  }
+
+  .links {
+    margin: 23px;
+    display: inline;;
+
+  }
+
+  
+  .gallery-about2{
+    margin: 5em
 
   }
 
@@ -109,7 +130,7 @@
   }
 
   .button {
-    margin: 0.8em;
+    /*margin: 0.8em;*/
     padding: 0.9em;   
     background-color: white;  
     border: 0.5px solid black;
@@ -119,6 +140,8 @@
     display: inline-block;
     margin-left: 30%;
   }
+
+  
 
 
 /*Footer*/
@@ -132,18 +155,23 @@
   
 
  
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 950px) {
     * body {
       margin: auto;
     }
 
     .right {
-      margin-right: -20px;
+      margin-right: -25px;
+    
     }
+  
     .major-gallery {
       width: 100%;
       float: left;
       display: grid;
       grid-template-columns: 1fr;
+    }
+    .gallery-about img {
+      margin-left: 0px;;
     }
   }

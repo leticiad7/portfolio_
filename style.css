@@ -56,6 +56,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     float: right;
+    margin: 30px;
   }
 
   .gallery {
@@ -155,7 +156,7 @@
   
 
  
-  @media only screen and (max-width: 950px) {
+  @media only screen and (max-width: 650px) {
     * body {
       margin: auto;
     }
@@ -175,3 +176,4 @@
       margin-left: 0px;;
     }
   }
+

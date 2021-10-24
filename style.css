@@ -156,12 +156,8 @@
   
 
  
-<<<<<<< HEAD
   @media only screen and (max-width: 650px) {
-=======
-  @media only screen and (max-width: 950px) {
->>>>>>> 271616d1c4c8881a8ebaa9d9cad6fc7cb30bd61a
-    * body {
+     body {
       margin: auto;
     }
 
@@ -179,9 +175,5 @@
     .gallery-about img {
       margin-left: 0px;;
     }
-<<<<<<< HEAD
   }
 
-=======
-  }
->>>>>>> 271616d1c4c8881a8ebaa9d9cad6fc7cb30bd61a

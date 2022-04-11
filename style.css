@@ -65,13 +65,11 @@
     border-radius: 20px;
     align-items: center;
     transition: all .2s ease-in-out; 
-     width: 75%;
-
   }
   .gallery img,     
   .gallery-about img {
     border-radius: 20px;
-    width: 75%;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }

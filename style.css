@@ -65,6 +65,8 @@
     border-radius: 20px;
     align-items: center;
     transition: all .2s ease-in-out; 
+     width: 75%;
+
   }
   .gallery img,     
   .gallery-about img {

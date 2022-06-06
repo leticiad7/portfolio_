@@ -105,8 +105,6 @@
     margin: 0.5em;
   }
 
-
-
   .about-me1 {
     padding: 20px;
   }
@@ -119,8 +117,8 @@
 
   
   .gallery-about2{
-    margin: 5em
-
+    margin: 5em;
+    text-align: center;
   }
 
   ul a {

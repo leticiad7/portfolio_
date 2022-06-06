@@ -1,5 +1,5 @@
   /*General*/
-* {
+  * {
     margin: 0;
     font-family: "Avenir";
       scroll-behavior: smooth;
@@ -34,7 +34,6 @@
     font-family: "Avenir";
     
   }
-  
 
   .right a {
     color: black;
@@ -52,14 +51,14 @@
   }
 
   /*Gallery*/
-  .major-gallery {
+  /*.major-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
     float: right;
     margin: 30px;
-    padding: 40px;
-  }
-
+  }*/
+    
+  /*Main image
   .gallery {
     margin: 2em;
     border: 1px solid #ccc;
@@ -67,13 +66,55 @@
     align-items: center;
     transition: all .2s ease-in-out; 
   }
-  .gallery img,     
+*/
+  .banner-img { 
+    margin: 25px;
+  }
+  
+  .main-pic {
+      align-items: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5rem;
+      border-radius: 25px;
+      width: 65%;
+      border: solid 1px black;
+  }
+
+  /*Context*/
+  .context {
+      background-color: beige;
+      align-items: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 25px;
+      margin: 25px;
+      padding: 20px;
+
+  }
+
+  /*Post Content*/
+  .post-content {
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    margin: 25px;
+    padding: 10px;
+  }
+
+
+
+  /*.gallery img,     
   .gallery-about img {
     border-radius: 20px;
-    width: 100%;
-    height: 100%;
+    width: 120%;
+    height: auto;
     object-fit: cover;
-  }
+  }*/
   
   .gallery:hover {
     transform: scale(1.1);
@@ -84,6 +125,10 @@
     text-align: center;
   }
 
+  h1{
+    font-family: 'Alfa Slab One', cursive;
+    color: #80e9d2;
+  }
 
   /*About section*/
   .gallery-about { /*About Section*/
@@ -95,9 +140,7 @@
     margin-left: 20px;;
   }
 
-  ul{
-    list-style: none;
-  }
+
 
   ul .about-me {
     align-items: center;
@@ -113,7 +156,6 @@
   .links {
     margin: 23px;
     display: inline;;
-
   }
 
   
@@ -143,7 +185,6 @@
     margin-left: 30%;
   }
 
-  
 
 
 /*Footer*/
@@ -151,7 +192,7 @@
       clear: both;
       margin-top: auto;
       padding-top: 30px;
-      position: relative;
+      /*position: relative;*/
   }
 
   
@@ -177,4 +218,3 @@
       margin-left: 0px;;
     }
   }
-
